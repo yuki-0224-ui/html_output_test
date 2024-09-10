@@ -3,6 +3,7 @@ body {
   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP",
     Meiryo, "Yu Gothic", sans-serif;
   overflow-x: hidden;
+  container-type: inline-size;
 }
 
 h2 {
@@ -68,7 +69,7 @@ ul {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 100vw;
+  width: 100cqw;
   height: 600px;
   object-fit: cover;
   margin: 0 auto;
@@ -139,7 +140,7 @@ ul {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  width: 100vw;
+  width: 100cqw;
   object-fit: cover;
   margin: 0 auto;
   font-size: 0trem;
